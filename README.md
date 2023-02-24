@@ -59,9 +59,9 @@ Pour chaque problème de contraste identifié,
 documenter le problème par une capture-écran incluant dans son cadre, la zone fautive à gauche et à droite, les résultats détaillés de l’outil, tel que démontré dans l’exemple ci-dessous.
 
 Sauvegarder les captures dans le dossier images. Compléter les liens ci-dessous:
-- [Contraste insuffisant 1](images/...)
-- [Contraste insuffisant 2](images/...)
-- [Contraste insuffisant 3](images/...)
+- [Contraste insuffisant 1](images/0-capture-ecran/waq_01.jpg)
+- [Contraste insuffisant 2](images/0-capture-ecran/waq_02.jpg)
+- [Contraste insuffisant 3](images/0-capture-ecran/waq_03.jpg)
 
 ### 3. Structurer avec les h1-h6 une table des matières
 
