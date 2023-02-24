@@ -1,3 +1,47 @@
-body{
+:root {
+    --colsize: 14.28%;
+}
+
+body {
     box-sizing: border-box;
+}
+
+table {
+    table-layout   : fixed;
+    border-collapse: collapse;
+}
+
+thead tr *, tbody tr:nth-child(n+2):nth-last-child(n+2) td {
+    text-align: center;
+}
+
+th,
+td {
+    padding: 5px;
+    border : 1px solid black;
+}
+
+table p {
+    margin: 0
+}
+
+th {
+    background-color: #d9d9d9;
+}
+
+tr>:first-child {
+    width: var(--colsize);
+}
+
+tr>th:first-child,
+tfoot {
+    text-align: left;
+}
+
+.null {
+    border-style: none;
+}
+
+.attention {
+    background-color: #ffcbb6;
 }
