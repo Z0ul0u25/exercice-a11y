@@ -31,21 +31,21 @@ Pour chacune des pages ci-dessous, les textes alternatifs sont-ils adéquats ?Co
 
 - https://www.sail.ca/fr/chaussures/junior/multi-sport-et-plein-air
 * Les images ont le même *alt* que le titre qui décri le produit en dessous. Information redondante
-[capture-écran](images/0-capture-ecran/Sail-ChaussuresSport.png)
+[capture-écran](images/1-textes-alternatifs/1-2/Sail-ChaussuresSport.png)
 
 - https://amzn.to/2NnbKPN
 * Le logo n'a pas de *ALT*.
 * Les images ont le même *alt* que le titre qui décrit le produit en dessous. Information redondante
-[capture-écran](images/0-capture-ecran/Amazon-VelosDeMontagne.png)
+[capture-écran](images/1-textes-alternatifs/1-2/Amazon-VelosDeMontagne.png)
 
 - https://www.lesoleil.com/
 * Les images ont le même *alt* que les titre d'article. Information redondantes
 * les lien vers les autres sources de nouvelles ont un *alt* correspondant à ce qui est écrit dans l'image.
-[capture-écran](images/0-capture-ecran/LeSoleil.png)
+[capture-écran](images/1-textes-alternatifs/1-2/LeSoleil.png)
 
 - https://www.rad.ca/
 * Absolument aucun *alt* dans toutes la page.
-[capture-écran](images/0-capture-ecran/Rad.png)
+[capture-écran](images/1-textes-alternatifs/1-2/Rad.png)
 
 Astuce
 Parfois, l’affichage des alt ne donnent pas un résultat facile à lire… lorsque cela se produit, faites un clic droit de la souris et choisir inspecter pour positionner l’inspecteur de DOM sur le HTML de l’image.
@@ -59,9 +59,9 @@ Pour chaque problème de contraste identifié,
 documenter le problème par une capture-écran incluant dans son cadre, la zone fautive à gauche et à droite, les résultats détaillés de l’outil, tel que démontré dans l’exemple ci-dessous.
 
 Sauvegarder les captures dans le dossier images. Compléter les liens ci-dessous:
-- [Contraste insuffisant 1](images/0-capture-ecran/waq_01.jpg)
-- [Contraste insuffisant 2](images/0-capture-ecran/waq_02.jpg)
-- [Contraste insuffisant 3](images/0-capture-ecran/waq_03.jpg)
+- [Contraste insuffisant 1](images/2-contrastes-couleurs/waq_01.jpg)
+- [Contraste insuffisant 2](images/2-contrastes-couleurs/waq_02.jpg)
+- [Contraste insuffisant 3](images/2-contrastes-couleurs/waq_03.jpg)
 
 ### 3. Structurer avec les h1-h6 une table des matières
 
