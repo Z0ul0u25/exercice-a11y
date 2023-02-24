@@ -1,8 +1,7 @@
 # Exercice d'accessibilité des contenus
 
 ## Équipe
-- Prénom nom
-- Prénom nom
+- Philippe Gourdeau
 
 ## Objectifs
 - Expérimenter le versionnage de fichiers avec GIT
@@ -16,13 +15,13 @@
 
 ## Instructions
 
-### 0. 
+### 0.
 - Initialiser un dépôt GIT dans le dossier du projet
 - Créer un fichier `index.html` et un fichier `style.css`
 
 ### 1.	Donner une alternative textuelle aux images
 
-#### 1.1 Baliser dans le fichier `index.html` les images du dossier `1-textes-alternatifs` 
+#### 1.1 Baliser dans le fichier `index.html` les images du dossier `1-textes-alternatifs`
 
 Pour vous guider dans le choix des balises, des attributs et des valeurs d'attributs, utiliser l'arbre de décision et référez-vous aux notes de cours.
 
@@ -30,28 +29,25 @@ Pour vous guider dans le choix des balises, des attributs et des valeurs d'attri
 
 Pour chacune des pages ci-dessous, les textes alternatifs sont-ils adéquats ?Commenter votre observation. Pourrait-on faire mieux ? Donnez un exemple de ce que vous proposeriez.
 
-- https://www.sail.ca/fr/chaussures/junior/multi-sport-et-plein-air 
------
------
------
-[capture-écran]()
-- https://amzn.to/2NnbKPN 
------
------
------
-[capture-écran]()
-- https://www.lesoleil.com/  
------
------
------
-[capture-écran]()
-- https://www.rad.ca/  
------
------
------
-[capture-écran]()
+- https://www.sail.ca/fr/chaussures/junior/multi-sport-et-plein-air
+* Les images ont le même *alt* que le titre qui décri le produit en dessous. Information redondante
+[capture-écran](images/0-capture-ecran/Sail-ChaussuresSport.png)
 
-Astuce  
+- https://amzn.to/2NnbKPN
+* Le logo n'a pas de *ALT*.
+* Les images ont le même *alt* que le titre qui décrit le produit en dessous. Information redondante
+[capture-écran](images/0-capture-ecran/Amazon-VelosDeMontagne.png)
+
+- https://www.lesoleil.com/
+* Les images ont le même *alt* que les titre d'article. Information redondantes
+* les lien vers les autres sources de nouvelles ont un *alt* correspondant à ce qui est écrit dans l'image.
+[capture-écran](images/0-capture-ecran/LeSoleil.png)
+
+- https://www.rad.ca/
+* Absolument aucun *alt* dans toutes la page.
+[capture-écran](images/0-capture-ecran/Rad.png)
+
+Astuce
 Parfois, l’affichage des alt ne donnent pas un résultat facile à lire… lorsque cela se produit, faites un clic droit de la souris et choisir inspecter pour positionner l’inspecteur de DOM sur le HTML de l’image.
 Essayer d’identifier l’emplacement du alt et puis regarder s’il y a une description tout de suite après.
 
@@ -71,26 +67,26 @@ Sauvegarder les captures dans le dossier images. Compléter les liens ci-dessous
 
 #### 3.1 Vérifier la structure
 
-D’après les captures-écrans que vous trouverez dans le dossier [images/3-table-des-matieres_h1-h6/3-1/](images/3-table-des-matieres_h1-h6/3-1) , est-ce que la table des matières du document est correcte?  
+D’après les captures-écrans que vous trouverez dans le dossier [images/3-table-des-matieres_h1-h6/3-1/](images/3-table-des-matieres_h1-h6/3-1) , est-ce que la table des matières du document est correcte?
 
-Sinon, expliquez le problème en vous basant sur les règles de base énoncées dans les notes de cours. 
+Sinon, expliquez le problème en vous basant sur les règles de base énoncées dans les notes de cours.
 
-__Tutoriel sur les formulaires du w3c__  
-[Article](images/3-table-des-matieres_h1-h6/3-1/tuto-form-w3c.pdf)  
+__Tutoriel sur les formulaires du w3c__
+[Article](images/3-table-des-matieres_h1-h6/3-1/tuto-form-w3c.pdf)
 
-[Table des matières (outline)](images/3-table-des-matieres_h1-h6/3-1/tuto-form-w3c-outline.png) 
+[Table des matières (outline)](images/3-table-des-matieres_h1-h6/3-1/tuto-form-w3c-outline.png)
 
-Réponse : 
+Réponse :
 
 ----
 ----
 ----
 
-__L’affaire Savtchenko__ 
-[Article](images/3-table-des-matieres_h1-h6/3-1/article-savtchenko.pdf)  
-[Table des matières (outline)](images/3-table-des-matieres_h1-h6/3-1/article-savtchenko-outline.png) 
-  
-Réponse : 
+__L’affaire Savtchenko__
+[Article](images/3-table-des-matieres_h1-h6/3-1/article-savtchenko.pdf)
+[Table des matières (outline)](images/3-table-des-matieres_h1-h6/3-1/article-savtchenko-outline.png)
+
+Réponse :
 
 ----
 ----
@@ -99,7 +95,7 @@ Réponse :
 
 #### 3.2 S'exercer à bien structurer
 
-- Ouvrir la capture-écran [concevoir-un-design-sans-la-couleur](images/3-table-des-matieres_h1-h6/3-2/concevoir-un-design-sans-la-couleur.pdf) que vous trouverez dans le dossier `sources > h1h6-partie-2` dans le logiciel PhotoShop.  
+- Ouvrir la capture-écran [concevoir-un-design-sans-la-couleur](images/3-table-des-matieres_h1-h6/3-2/concevoir-un-design-sans-la-couleur.pdf) que vous trouverez dans le dossier `sources > h1h6-partie-2` dans le logiciel PhotoShop.
 - Ajouter un calque de blanc à 50% de transparence
 - Dans un 3e calque, par-dessus, identifiez les titres et leurs niveaux (h1-h6) de manière voyante (couleur rouge et font-size suffisant)
 - Sauvegarder au format .psd ou .png dans le même dossier.
@@ -107,14 +103,14 @@ Réponse :
 
 ### 4. Baliser un tableau de données pour qu’il soit accessible
 
-D’après la capture-écran et le texte fourni dans le dossier [4-tableau-de-donnees](images/4-tableau-de-donnees), balisez de manière accessible ce tableau de données.  
-  
-Votre tableau de données doit comporter un titre (caption) : 
+D’après la capture-écran et le texte fourni dans le dossier [4-tableau-de-donnees](images/4-tableau-de-donnees), balisez de manière accessible ce tableau de données.
 
-> "Recommandations de consommation de poissons selon l’âge, le sexe et la condition physique".  
+Votre tableau de données doit comporter un titre (caption) :
+
+> "Recommandations de consommation de poissons selon l’âge, le sexe et la condition physique".
 
 
-Les __entêtes de rangées et de colonnes__ doivent être balisées comme des `<th>` plutôt que des `<td>` et puisque le tableau est *complexe*, vous devez utiliser des attributs `id` dans les `<th>`. 
+Les __entêtes de rangées et de colonnes__ doivent être balisées comme des `<th>` plutôt que des `<td>` et puisque le tableau est *complexe*, vous devez utiliser des attributs `id` dans les `<th>`.
 
 Chaque cellule `<td>` du tableau doit avoir un attribut headers avec comme valeur(s), le ou les identifiants de ses entêtes de colonnes et de rangées.
 
