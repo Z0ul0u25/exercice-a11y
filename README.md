@@ -77,20 +77,14 @@ __Tutoriel sur les formulaires du w3c__
 [Table des matières (outline)](images/3-table-des-matieres_h1-h6/3-1/tuto-form-w3c-outline.png)
 
 Réponse :
-
-----
-----
-----
+    Structure brève mais qui fait du sens pour la page puisque le reste de l'information n'est que du texte en paragraphe.
 
 __L’affaire Savtchenko__
 [Article](images/3-table-des-matieres_h1-h6/3-1/article-savtchenko.pdf)
 [Table des matières (outline)](images/3-table-des-matieres_h1-h6/3-1/article-savtchenko-outline.png)
 
 Réponse :
-
-----
-----
-----
+    Balise `h1` manquante au début de l'article. Tout le reste des titres sont placé dans des balise `h2` se qui ne semble pas faire beaucoup de sens. L'élément avec un titre d'article a lire ne devrait pas être sur le même niveau qu'un lien pour suivre sur les média sociaux.
 
 
 #### 3.2 S'exercer à bien structurer
@@ -99,7 +93,7 @@ Réponse :
 - Ajouter un calque de blanc à 50% de transparence
 - Dans un 3e calque, par-dessus, identifiez les titres et leurs niveaux (h1-h6) de manière voyante (couleur rouge et font-size suffisant)
 - Sauvegarder au format .psd ou .png dans le même dossier.
-- [Relier ce fichier-réponse ici]()
+- [Relier ce fichier-réponse ici](images/3-table-des-matieres_h1-h6/3-2/concevoir-un-design-sans-la-couleur_identification.png)
 
 ### 4. Baliser un tableau de données pour qu’il soit accessible
 
